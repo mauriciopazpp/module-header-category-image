@@ -1,0 +1,16 @@
+<?php
+/**
+ * @author Mauricio Paz Pacheco
+ * @copyright Copyright © 2020 Mpaz. All rights reserved.
+ * @package Mpaz_HeaderCategoryPage
+ */
+?>
+<?php $category = $this->getCurrentCategory(); ?>
+
+<?php if ($category->getData('header_category_image')): ?>
+    <div class="category-banner" style="background: url(<?= $category->getData('header_category_image') ?>) no-repeat">
+        <div class="category-banner-title">
+            <?= $category->getName() ?>
+        </div>
+    </div>
+<?php endif; ?>

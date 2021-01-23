@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Mauricio Paz
+ * @copyright Copyright © 2020 Mpaz. All rights reserved.
+ * @package Mpaz_HeaderCategoryPage
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Mpaz_HeaderCategoryPage::css/category-header-image.css" />
+    </head>
+    <body>
+        <referenceBlock name="page.main.title" remove="true"/>
+        <referenceBlock name="category.image" remove="true"/>
+    </body>
+</page>
